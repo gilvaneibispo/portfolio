@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gilvanei Bispo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!--[if IE]>
+    <link rel="shortcut icon" href="inc/img/favicon.ico"><![endif]-->
+    <link rel="icon" href="inc/img/favicon.ico">
+
+    <script src="inc/js/jquery-3.4.1.js"></script>
+
+    <link href="inc/bootstrap/bootstrap-reboot.css" rel="stylesheet">
+    <link href="inc/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="all" href="inc/plugins/owlcarousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" media="all" href="inc/plugins/owlcarousel/dist/assets/owl.theme.default.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='inc/css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='inc/css/portifolio.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='inc/css/responsive.css'>
+</head>
+<body>
+
+    <!-- Header diferente para o portifólio -->
+    <header>
+        <div class="gbIcon">
+            <a href="/">GB</a>
+        </div>
+
+        <nav id="navBar" style="display: block !important;">
+            <a href="/">
+                <img src="inc/img/icons/back.png" width="20">
+                Voltar ao início
+            </a>
+        </nav>
+    </header>
+
+    <section id="port-body">
+        <!-- Conteúdo do portifólio -->
+        <div class="container">
+            <div class="row">
+                
+                <!-- Título da página -->
+                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="gallery-title">Portifólio</h1>
+                </div>
+
+                <!-- Links para seleção de sites por modalidade -->
+                <div class="links-selector col-12 text-right">
+                    <button class="btn btn-default filter-button" data-no-result-filter="false" data-filter="all">Todos</button>
+                    <button class="btn btn-default filter-button" data-no-result-filter="true" data-filter="full-stack">Full-stack</button>
+                    <button class="btn btn-default filter-button" data-no-result-filter="false" data-filter="front-end">Front-end</button>
+                    <button class="btn btn-default filter-button" data-no-result-filter="false" data-filter="back-end">Back-end</button>
+                    <button class="btn btn-default filter-button" data-no-result-filter="false" data-filter="wordpress">WordPress</button>
+                </div>
+
+                <div class="no-filter col-12">
+                    Sem resultado para seleção!
+                </div>
+
+                <!-- Item - Site no portifólio -->
+                <div class="gallery_product col-12 col-sm-6 col-lg-4 filter front-end">
+                    
+                    <img src="inc/img/sites-port/site-exo.png" class="img-responsive w-100">
+                    
+                    <div class="nome">
+                        <div class="vertival-aling">
+                            <a href="https://exo.net.br" target="_blank" alt="Site institucional Exo" title="Site institucional Exo">+</a>
+                            <span>Exo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item - Site no portifólio -->
+                <div class="gallery_product col-12 col-sm-6 col-lg-4 filter wordpress">
+                    
+                    <img src="inc/img/sites-port/theblackdev.png" class="img-responsive w-100">
+                    
+                    <div class="nome">
+                        <div class="vertival-aling">
+                            <a href="https://theblackdev.com.br" alt="Blog WordPress TheBlackDev" title="Blog WordPress TheBlackDev" target="_blank">+</a>
+                            <span>TheBlackDev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item - Site no portifólio -->
+                <div class="gallery_product col-12 col-sm-6 col-lg-4 filter back-end">
+                    
+                    <img src="inc/img/sites-port/site-default.png" class="img-responsive w-100">
+                    
+                    <div class="nome">
+                        <div class="vertival-aling">
+                        <a href="#">+</a>
+                        <span>Site de exemplo</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- Fim da classe .row do bootstrap -->
+        </div><!-- Fim da classe .container do bootstrap -->
+    </section>
+
+    <footer id="footerCustum">
+
+        <div class="sharingBox">
+            
+            <a class="wz" title="WhatsApp" href="whatsapp://send?text=Gilvanei Bispo : Desenvolvedor Web - " target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            
+            <a class="fb" href="https://www.facebook.com/sharer/sharer.php?u=&amp;t=" title="Share on Facebook" target="_blank"
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='
+                + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL));
+                return false;">
+                <i class="fab fa-facebook"></i>
+            </a>
+            
+            <a class="tt" href="https://twitter.com/intent/tweet?" target="_blank" title="Tweet" 
+                onclick="window.open('https://twitter.com/intent/tweet?text=%20Gilvanei%20Bispo%20:%20Desenvolvedor%20Web%20-%20'
+                /*+ encodeURIComponent(document.title) + ':%20 '*/ + encodeURIComponent(document.URL));
+                return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a class="em" href="mailto:?subject=&amp;body=:%20" target="_blank" title="Email" 
+                onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&amp;body=Gilvanei%20Bispo%20-%20'
+                + encodeURIComponent(document.URL)); return false;">
+                <i class="far fa-envelope-open"></i>
+            </a>
+        </div>
+
+        <div class="footerCopyright">
+            Copyright <span>©</span> 2019 por Gilvanei Bispo. Todos os direitos reservados.
+        </div>
+        <!--
+        <script src='inc/js/main.js'></script>
+        -->
+    </footer>
+    
+    <script type="text/javascript" src="inc/plugins/owlcarousel/dist/owl.carousel.js"></script>
+    
+    <script>
+    
+        $(function () {
+
+            $(".filter-button").click(function(){
+                
+                var value = $(this).attr('data-filter');
+                var hasResult = $(this).attr('data-no-result-filter');
+                var divNoFilter = $(".no-filter");
+
+                if(hasResult == 'true'){
+                    divNoFilter.css({
+                        display: 'block'
+                    });
+                }else{
+                    divNoFilter.css({
+                        display: 'none'
+                    });
+                }
+              
+                if(value == "all"){
+                    
+                    // $('.filter').removeClass('hidden');
+                    $('.filter').show('1000');
+                } else {
+                    
+                    // $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    // $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.'+value).hide('3000');
+                    $('.filter').filter('.'+value).show('3000');
+                }
+            });
+
+            if ($(".filter-button").removeClass("active")) {
+                
+                $(this).removeClass("active");
+            }
+            
+            $(this).addClass("active");
+        });
+    </script>
+
+</body>

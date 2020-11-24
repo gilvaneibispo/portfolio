@@ -1,0 +1,101 @@
+/*#contentModalJbox a, #contentModalJboxRedirect a{
+    display: block;
+    position: relative;
+    padding: .3rem 1.5rem;
+    background: rgb(235, 227, 45);
+    border: none;
+    width: 10rem;
+    color: rgb(35, 40, 85);
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'HouschkaRounded', sans-serif;
+    border-radius: 2.3rem;
+    outline: none;
+    margin: .4rem auto;
+}
+
+#contentModalJbox .textOfTheBody, #contentModalJboxRedirect .textOfTheBody{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-family: 'HouschkaRounded', sans-serif;
+    font-size: 16pt;
+    color: rgb(35, 40, 85);
+}
+
+#contentModalJbox, #contentModalJboxRedirect{
+    display: none;
+}
+
+#contentModalJbox .lineJbox, #contentModalJboxRedirect .lineJbox{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+
+.jBox-overlay {
+    background-color: rgba(35,40,85,.65) !important;
+}
+
+.jBox-Confirm-button-submit {
+    background: rgb(239, 79, 147);
+}
+
+.jBox-Confirm-footer{
+    font-family: 'HouschkaRounded', sans-serif;
+    font-size: 14pt;
+    letter-spacing: 2px;
+}
+
+.jBox-content{
+    font-family: 'HouschkaRounded', sans-serif;
+    font-size: 18pt;
+    letter-spacing: 1px;
+}*/
+
+.grabMe, .jBox-content{
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'IsidoraRegular', sans-serif;
+}
+
+.jBox-container {
+    background: #fefefe;
+    border-radius: 0 !important;
+}
+
+.boxBtn{
+    display: block;
+    padding: 0;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.boxBtn button{
+    display: inline-block;
+    position: relative;
+    padding: 0.4rem 1.5rem;
+    color: #fff;
+    background: rgb(245, 132, 98);
+    margin: 0;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(182, 110, 80);
+    border-top: 3px solid rgb(250, 150, 115);
+    border-left: 3px solid rgb(182, 110, 80);
+    border-right: 3px solid rgb(250, 150, 115);
+}
+
+.jBox-title{
+    text-align: center;
+    font-family: 'DigitRegular', sans-serif;
+    padding: 6px 20px !important;
+    color: rgb(50, 200, 95);
+    font-size: 20pt;
+}

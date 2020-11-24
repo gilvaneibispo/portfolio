@@ -1,0 +1,288 @@
+@media only screen and (max-width: 1200px) {
+ 
+}
+
+@media only screen and (max-width: 992px){
+    #headerImg .boxInHeader {
+        width: 80%;
+    }
+
+    #aboutMe .boxInAboutMe {
+        width: 80%;
+    }
+
+    #headerImg .boxInHeader .boxDataInHeader ul, #headerImg .boxInHeader .boxDataInHeader li{
+        font-size: 10pt;
+    }
+
+    #navBar {
+        font-size: 10pt;
+    }
+
+    #navBar a {
+        line-height: 2.2;
+    }
+
+    #skillBar .boxInSkillBar {
+        width: 80%;
+    }
+
+    #skillBar .skillBarSet {
+        padding-bottom: 2.5rem;
+    }
+
+    #contactAndMap .boxContact {
+        width: 40%;
+        /*
+        * Alinhamento padrão à esquerda + a padding padrão da página
+        * (100% - 80%)/2 + 2rem
+        */
+        margin-left: calc(10% + 2rem);
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    header {
+        padding-left: calc(15% + 1.5rem);
+    }
+
+    #navBar{
+        display: none;
+    }
+
+    header .menuMobile {
+        display: block;
+        padding: 0 calc(15% + 1.5rem);
+        background-color: #88D317;
+        height: 3rem;
+        line-height: 1.8;
+        font-size: 18pt;
+    }
+
+    header .menuMobile a{
+        display: block;
+        color: #1A0315;
+        width: 2rem;
+        position: relative;
+        text-align: center;
+    }
+    
+    #headerImg .boxInHeader {
+        width: 70%;
+    }
+
+    #headerImg .boxInHeader .boxPictureInHeader img {
+        border-radius: 50%;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    #aboutMe .boxInAboutMe {
+        width: 70%;
+    }
+
+    #headerImg .boxInHeader{
+        display: block;
+    }
+
+    #headerImg .boxInHeader .boxDataInHeader{
+        width: 100%;
+        padding-top: 4.5rem; /* Metade da altura da imagem mais 0.5rem */
+        text-align: center;
+    }
+
+    #headerImg .boxInHeader .boxDataInHeader h1 {
+        font-size: 30pt;
+    }
+
+    #headerImg .boxInHeader .boxDataInHeader h2 {
+        font-size: 15pt;
+        margin-bottom: 12px;
+    }
+
+    #headerImg .boxInHeader .boxDataInHeader ul, #headerImg .boxInHeader .boxDataInHeader li {
+        font-size: 10pt;
+    }
+
+    #headerImg .boxInHeader .boxPictureInHeader{
+        display: block;
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    top: -22rem;
+    margin: 0 auto;
+    }
+
+    #headerImg .boxInHeader .boxPictureInHeader .bgdSideInHeader{
+        display: none;
+    }
+
+    #merchanSite {
+        padding-bottom: 2rem;
+    }
+
+    #merchanSite .boxInMerchan {
+        display: block;
+    }
+
+    #merchanSite .boxInMerchan .itemForMobile{
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+    }
+
+    #merchanSite .boxInMerchan img{
+        display: inline-block;
+        width: 50%;
+    }
+
+    #merchanSite .boxInMerchan p{
+        display: inline-block;
+        width: 45%;
+    }
+
+    #skillBar .boxInSkillBar {
+        width: 70%;
+    }
+
+    #skillBar .skillBarSet {
+        width: 100%;
+    }
+
+    #contactAndMap .boxMap {
+        margin-top: -3rem;
+        background: transparent;
+        height: 39rem;
+    }
+
+    #contactAndMap .boxContact {
+        width: 100%;
+        top: 18rem;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 19rem;
+    }
+
+    #contactAndMap .boxContact .boxForMobileContact {
+        display: block;
+        position: relative;
+        width: 50%;
+        padding: 1.5rem;
+    }
+
+    #contactAndMap .boxContact .boxForMobileContact:nth-child(1) {
+        padding-right: calc(1.5rem/2);
+    }
+
+    #contactAndMap .boxContact .boxForMobileContact:nth-child(2) {
+        padding-left: calc(1.5rem/2);
+    }
+
+    #footerCustum {
+        margin-top: 14rem;
+    }
+
+    #contactAndMap .boxContact .boxTextarea{
+        height: calc(100% - 3rem - 27px);
+    }
+
+    textarea {
+        height: 100%!important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .openMenuHeader{
+        height: 32rem;
+    }
+
+    .openMenuHeader .linksBox{
+        justify-content: space-evenly;
+    }
+
+    .openMenuHeader .linksBox .linksItem{
+
+        width: 40%;
+    }
+
+    .break{
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    #merchanSite .boxInMerchan .itemForMobile{
+        display: block;
+    }
+
+    #merchanSite .boxInMerchan img{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #merchanSite .boxInMerchan p{
+        display: block;
+        width: 100%;
+    }
+
+    #skillBar .boxInSkillBar, #aboutMe .boxInAboutMe, #headerImg .boxInHeader {
+        width: 92%;
+    }
+
+    #contactAndMap .boxMap {
+        height: 60rem;
+    }
+
+    #contactAndMap .boxContact {
+        display: block;
+        height: 34rem;
+        top: 24rem;
+    }
+
+    #contactAndMap .boxContact .boxForMobileContact {
+        width: 100%;
+    }
+
+    #contactAndMap .boxContact .boxForMobileContact:nth-child(1) {
+        padding: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    #contactAndMap .boxContact .boxForMobileContact:nth-child(2) {
+        padding: 1.5rem;
+        padding-top: 0;
+    }
+
+    #footerCustum {
+        margin-top: 36rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .openMenuHeader{
+        height: 26rem;
+    }
+
+    #skillBar .boxInSkillBar, #aboutMe .boxInAboutMe, #headerImg .boxInHeader {
+        width: 100%;
+    }
+
+    #aboutMe .boxInAboutMe .bodyBox {
+        font-size: 12pt;
+    }
+
+    #headerImg .boxInHeader .boxDataInHeader {
+        padding-top: 4.1rem;
+    }
+
+    #clientFeedBack .boxInClientFeed .boxTextClient{
+        width: 18rem;
+    }
+
+    .owl-theme .owl-dots .owl-dot span{
+        width: 1rem;
+    }
+}

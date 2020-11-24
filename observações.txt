@@ -1,0 +1,3 @@
+no mobile:
+diminuir a altura do box do mapa para facilitara a rolagem...
+adicionar uma listancia do separador dos titlos para a imagem no merchan
